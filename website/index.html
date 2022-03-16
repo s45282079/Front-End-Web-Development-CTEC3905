@@ -1,74 +1,80 @@
-<!DOCTYPE html>
-<head>
-<meta content="text/html; charset=utf-8" />
-<link rel="stylesheet" type="text/css" href="style/style.css" />
-<title>Homepage</title>
-</head>
-<body>
-	<a href="index.html">
-	<center><img src="media/logo.png" alt="Platiunum car services Logo" height="100" width="150"/></center>
-	</a>
-	<div id="menu">
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="updates.html">Updates</a></li>
-			<li><a href="fleet.html">Fleet</a></li>
-			<li><a href="about us.html">About Us</a></li>
-			<li><a href="contact us.html">Contact Us</a></li>
-		</ul>
-	</div>
-
-	<div class="slideshow-container">
-
-		<div class="mySlides fade">
-			<div class="numbertext">1 / 3</div>
-			<img src="media/rrphantom.jpg" style="width:100%">
-			<div class="text">Rolls-Royce Phantom</div>
+<html>
+	<head>
+		<meta content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="style/style.css" />
+		<title>Homepage</title>
+	</head>
+	<body>
+		<a href="index.html">
+			<center><img src="media/logo.png" alt="Platiunum car services Logo" height="100" width="150"/></center>
+		</a>
+		<div id="mainline">
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="updates.html">Updates</a></li>
+				<li><a href="fleet.html">Fleet</a></li>
+				<li><a href="about us.html">About Us</a></li>
+				<li><a href="contact us.html">Contact Us</a></li>
+			</ul>
 		</div>
 
-		<div class="mySlides fade">
-			<div class="numbertext">2 / 3</div>
-			<img src="media/rrwraith.jpg" style="width:100%">
-			<div class="text">Rolls-Royce Wraith</div>
+		<div class="slideshow-container">
+
+			<div class="mySlides fade">
+				<div class="numbertext">1 / 3</div>
+				<img src="media/rrphantom.jpg" style="width:100%">
+				<div class="text">Rolls-Royce Phantom</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">2 / 3</div>
+				<img src="media/rrwraith.jpg" style="width:100%">
+				<div class="text">Rolls-Royce Wraith</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 3</div>
+				<img src="media/BcontinentalGT.jpg" style="width:100%">
+				<div class="text">Bentley Continental GT</div>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		</div>
+		<br>
+
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span> 
+			<span class="dot" onclick="currentSlide(2)"></span> 
+			<span class="dot" onclick="currentSlide(3)"></span> 
 		</div>
 
-		<div class="mySlides fade">
-		  <div class="numbertext">3 / 3</div>
-		  <img src="media/BcontinentalGT.jpg" style="width:100%">
-		  <div class="text">Bentley Continental GT</div>
+		<div id="mainline">
 		</div>
-
-		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-	</div>
-	<br>
-
-	<div style="text-align:center">
-	  <span class="dot" onclick="currentSlide(1)"></span> 
-	  <span class="dot" onclick="currentSlide(2)"></span> 
-	  <span class="dot" onclick="currentSlide(3)"></span> 
-	</div>
-
-	<div id="mainline">
-	</div>
-	<div id="footer">
 		
-		<div id="sml">
-			<a href="https://www.facebook.com">
-			<img src="media/bfb.png" alt="Faceboook" class="image" height="35" width="35">
-			</a>
-			<a href="https://twitter.com">
-			<img src="media/bt.png" alt="Twitter" class="image" height="35" width="35">
-			</a>
-			<a href="https://instagram.com">
-			<img src="media/bi.png" alt="Instagram" class="image" height="35" width="35">
-			</a><br>
-		</div>
-		<a href="">Platinum car services &copy; 2022</a>
-	</div>	
-</div>
+		<div id="footer">
+			<div id="fbox_1">
+				<a href="">Platinum car services</a>
+			</div>
+			<div id="fbox_2">
+				<a href="https://www.facebook.com">
+					<img src="media/bfb.png" alt="Faceboook" class="image" height="35" width="35">
+				</a>
+				<a href="https://twitter.com">
+					<img src="media/bt.png" alt="Twitter" class="image" height="35" width="35">
+				</a>
+				<a href="https://instagram.com">
+					<img src="media/bi.png" alt="Instagram" class="image" height="35" width="35">
+				</a>
+			</div>
+			<div id="fbox_3">
+				<a href="">Platinum car services &copy; 2022</a>
+			</div>
+		</div>	
 
-	<script src="script/script.js"></script>
-</body>
+		<script src="script/script.js"></script>
+	</body>
 </html>
