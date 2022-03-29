@@ -47,9 +47,15 @@ body {
 	height: 100px;
 }
 
+#textwrap { 
+	margin: 0% 10% 0% 10%;`
+}
+	
 #wrap { 
-	margin: 0% 20% 0% 20%;
 	text-align: center;
+	background-image: url('../media/mercedesgthp.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
 }
 
 #header h1 {
