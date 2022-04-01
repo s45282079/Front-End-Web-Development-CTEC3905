@@ -53,7 +53,7 @@ body {
 	
 #wrap { 
 	text-align: center;
-	background-image: url('../media/mercedesgthp.jpg');
+	background-image: url('../media/bentleyback.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed; 
 }
@@ -62,7 +62,7 @@ body {
 	margin: 0;
 	font-weight: normal;
 	color: #ffffff;
-	font-size: 3vw;
+	font-size: 2.5vmax;
 	line-height: 90px;
 }
 
@@ -71,40 +71,23 @@ body {
 
 }
 #content h2 { 
-	padding-top: 10px; font-weight: normal; font-size: 2vw; 
+	padding-top: 10px; font-weight: normal; font-size: 1.5vmax; 
 }
 
 #content h3 { 
-	font-weight: normal; font-size: 1vw; padding: 10px; 
+	font-weight: normal; font-size: 0.7vmax; padding: 10px; 
 }
 
 #hide1,#hide2, #hide3, #hide4, #hide5, #hide6, #hide7, #hide8, #hide9, #hide10 {
 	width: 100%;
 	margin-top: 20px;
 	display:none;
+	font-size: 0.7vmax;
 }
 
 #questions:hover { 
 	opacity: 0.3;
 	text-decoration: underline;
-}
-
-/* Fading animation */
-.fade {
-	-webkit-animation-name: fade;
-	-webkit-animation-duration: 1.5s;
-	animation-name: fade;
-	animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-	from {opacity: .4} 
-	to {opacity: 1}
-}
-
-@keyframes fade {
-	from {opacity: .4} 
-	to {opacity: 1}
 }
 
 #footer { 
